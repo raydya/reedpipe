@@ -2,7 +2,7 @@ module Reedpipe
   module Api
     class V2 < Grape::API
       format :json
-        version :v2, using: :path, format: :json, cascade: true
+      version :v2, using: :path, format: :json, cascade: true
       prefix :api
 
       desc 'Returns the current API version ,v2'
